@@ -73,3 +73,7 @@ main {
   column-gap: 1em;
   row-gap: 1em;
 }
+
+#header-top > a {
+  color:white;
+}
