@@ -2,15 +2,14 @@ h2 {
   width: fit-content;
 }
 
-/* need to set maxwidth to screen size using an @meta declaration */
+
+
 header {
   background-color: darkorchid;
   color: white;
   padding: 1em;
 
   display: grid;
-  grid-template-columns: fit-content;
-  grid-template-rows: 1fr 2fr;
   align-items: center;
 }
 
@@ -19,6 +18,7 @@ header > nav {
   padding: 1em;
   border-style: solid;
   border-width: 3px;
+  margin-bottom: 3px;
 
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header > nav {
 header > section {
   background-color:white;
   color: darkorchid;
-  padding: 1em;
+  /*padding: 1em;*/
 
   display: grid;
   column-gap: 0.5em;
@@ -38,8 +38,29 @@ header > section {
 }
 
 #qwert {
+  margin: 10px;
   padding: 0.5em;
   border-style: double;
   border-color: darkorchid;
   border-width: 0.5em;
+}
+
+main {
+  background-color: white;
+  margin-top: 1em;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#department {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+#department > a {
+  background-color: darkorchid;
+  color: white;
+  padding: 0.5em;
 }
