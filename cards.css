@@ -1,0 +1,13 @@
+body {
+  height: 275px;
+  width: 275px;
+  margin: 5px;
+}
+
+header {
+  background-color: darkorchid;
+  color: white;
+
+  display: grid;
+  justify-content: center;
+}
