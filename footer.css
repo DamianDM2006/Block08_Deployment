@@ -21,5 +21,12 @@ h3 {
   padding: 3px;
   margin-top: 13px;
   margin-bottom: 7px;
+}
 
+nav > a {
+  color:white;
+}
+
+nav > a:hover {
+  color:chartreuse;
 }

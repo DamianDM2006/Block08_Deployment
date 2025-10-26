@@ -2,7 +2,9 @@ h2 {
   width: fit-content;
 }
 
-
+a:hover {
+  color:chartreuse;
+}
 
 header {
   background-color: darkorchid;
@@ -77,3 +79,12 @@ main {
 #header-top > a {
   color:white;
 }
+
+#header-top > a:hover {
+  color:chartreuse;
+}
+
+#department > a:hover {
+  color:chartreuse;
+}
+
