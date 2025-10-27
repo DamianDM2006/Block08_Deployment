@@ -27,6 +27,11 @@ header > nav {
   flex-wrap: wrap;
 }
 
+input {
+  background-color: yellow;
+  width: 50%;
+}
+
 header > section {
   background-color:white;
   color: darkorchid;
