@@ -27,6 +27,10 @@ header > nav {
   flex-wrap: wrap;
 }
 
+.icons {
+  background-color: white;
+}
+
 input {
   background-color: yellow;
   width: 50%;
